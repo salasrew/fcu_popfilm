@@ -1,19 +1,19 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { IonicModule } from '@ionic/angular';
 
-import { LytEventComponent } from './lyt-event.component';
+import { MinePage } from './mine.page';
 
-describe('LytEventComponent', () => {
-  let component: LytEventComponent;
-  let fixture: ComponentFixture<LytEventComponent>;
+describe('MinePage', () => {
+  let component: MinePage;
+  let fixture: ComponentFixture<MinePage>;
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ LytEventComponent ],
+      declarations: [ MinePage ],
       imports: [IonicModule.forRoot()]
     }).compileComponents();
 
-    fixture = TestBed.createComponent(LytEventComponent);
+    fixture = TestBed.createComponent(MinePage);
     component = fixture.componentInstance;
     fixture.detectChanges();
   }));

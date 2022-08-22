@@ -1,19 +1,19 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { IonicModule } from '@ionic/angular';
 
-import { LytCmtComponent } from './lyt-cmt.component';
+import { LocatingPage } from './locating.page';
 
-describe('LytCmtComponent', () => {
-  let component: LytCmtComponent;
-  let fixture: ComponentFixture<LytCmtComponent>;
+describe('LocatingPage', () => {
+  let component: LocatingPage;
+  let fixture: ComponentFixture<LocatingPage>;
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ LytCmtComponent ],
+      declarations: [ LocatingPage ],
       imports: [IonicModule.forRoot()]
     }).compileComponents();
 
-    fixture = TestBed.createComponent(LytCmtComponent);
+    fixture = TestBed.createComponent(LocatingPage);
     component = fixture.componentInstance;
     fixture.detectChanges();
   }));

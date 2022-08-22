@@ -1,19 +1,19 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { IonicModule } from '@ionic/angular';
 
-import { LytScheduleComponent } from './lyt-schedule.component';
+import { MovieFindingPage } from './movie-finding.page';
 
-describe('LytScheduleComponent', () => {
-  let component: LytScheduleComponent;
-  let fixture: ComponentFixture<LytScheduleComponent>;
+describe('MovieFindingPage', () => {
+  let component: MovieFindingPage;
+  let fixture: ComponentFixture<MovieFindingPage>;
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ LytScheduleComponent ],
+      declarations: [ MovieFindingPage ],
       imports: [IonicModule.forRoot()]
     }).compileComponents();
 
-    fixture = TestBed.createComponent(LytScheduleComponent);
+    fixture = TestBed.createComponent(MovieFindingPage);
     component = fixture.componentInstance;
     fixture.detectChanges();
   }));
